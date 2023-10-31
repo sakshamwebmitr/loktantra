@@ -1,0 +1,16 @@
+#dynamic p{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+#dynamic img{
+    max-width: 70%;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}

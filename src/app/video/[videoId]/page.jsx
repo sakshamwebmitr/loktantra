@@ -139,19 +139,19 @@ const videoPage = async ({ params }) => {
                 gradientTransform="translate(68.993 -66.999)"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0" stop-color="#33c481"></stop>
-                <stop offset="1" stop-color="#21a366"></stop>
+                <stop offset="0" stopColor="#33c481"></stop>
+                <stop offset="1" stopColor="#21a366"></stop>
               </linearGradient>
               <path
                 fill="url(#L-XE1-AhSuENmensHMz7Ea_eGZs8grn6szD_gr1)"
                 d="M9.999,7.006v23.988c0,1.107,0.9,2.007,2.007,2.007	h23.988c1.107,0,2.007-0.9,2.007-2.007V7.006c0-1.107-0.9-2.007-2.007-2.007H12.006C10.899,4.999,9.999,5.899,9.999,7.006z"
               ></path>
               <path
-                fill-opacity=".047"
+                fillOpacity=".047"
                 d="M37.514,17.545l-9.729-7.271l10.215,1.493l0.001,4.241	L37.514,17.545z"
               ></path>
               <path
-                fill-opacity=".071"
+                fillOpacity=".071"
                 d="M37.514,17.545l-9.729-7.271l10.215,2.132l0.001,3.603	L37.514,17.545z"
               ></path>
               <linearGradient
@@ -163,27 +163,27 @@ const videoPage = async ({ params }) => {
                 gradientTransform="translate(70.438 -57.129)"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0" stop-color="#f44f5b"></stop>
-                <stop offset="1" stop-color="#e5202e"></stop>
+                <stop offset="0" stopColor="#f44f5b"></stop>
+                <stop offset="1" stopColor="#e5202e"></stop>
               </linearGradient>
               <path
                 fill="url(#L-XE1-AhSuENmensHMz7Eb_eGZs8grn6szD_gr2)"
                 d="M22.511,10.767l-5.837,21.14	c-0.269,0.976,0.304,1.987,1.279,2.256l20.898,5.769c0.975,0.269,1.985-0.303,2.255-1.279l5.837-21.141	c0.269-0.975-0.304-1.985-1.279-2.255L24.766,9.487C23.791,9.218,22.781,9.791,22.511,10.767z"
               ></path>
               <path
-                fill-opacity=".047"
+                fillOpacity=".047"
                 d="M29.999,15.999l-4-5l1.507-0.753l2.492,0.688	L29.999,15.999z"
               ></path>
               <path
-                fill-opacity=".047"
+                fillOpacity=".047"
                 d="M9.999,12.773L24.201,6.17	c0.916-0.425,2.007-0.027,2.432,0.888l1.407,3.025L9.999,12.773z"
               ></path>
               <path
-                fill-opacity=".071"
+                fillOpacity=".071"
                 d="M9.999,13.309l14.201-6.603	c0.916-0.425,2.007-0.027,2.432,0.888l1.407,3.025L9.999,13.309z"
               ></path>
               <path
-                fill-opacity=".071"
+                fillOpacity=".071"
                 d="M29.999,15.999l-4-5l1.507-0.753l1.84,0.507	L29.999,15.999z"
               ></path>
               <linearGradient
@@ -195,8 +195,8 @@ const videoPage = async ({ params }) => {
                 gradientTransform="translate(61.113 -62.879)"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0" stop-color="#ffe074"></stop>
-                <stop offset="1" stop-color="#f8cf40"></stop>
+                <stop offset="0" stopColor="#ffe074"></stop>
+                <stop offset="1" stopColor="#f8cf40"></stop>
               </linearGradient>
               <path
                 fill="url(#L-XE1-AhSuENmensHMz7Ec_eGZs8grn6szD_gr3)"
@@ -211,8 +211,8 @@ const videoPage = async ({ params }) => {
                 gradientTransform="translate(67.502 -60.287)"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0" stop-color="#55adfd"></stop>
-                <stop offset="1" stop-color="#438ffd"></stop>
+                <stop offset="0" stopColor="#55adfd"></stop>
+                <stop offset="1" stopColor="#438ffd"></stop>
               </linearGradient>
               <path
                 fill="url(#L-XE1-AhSuENmensHMz7Ed_eGZs8grn6szD_gr4)"
@@ -220,33 +220,33 @@ const videoPage = async ({ params }) => {
               ></path>
               <path
                 fill="#fff"
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M24.999,25.001v-3.001	h10.004c0.549,0,0.997,0.448,0.997,0.997v1.007c0,0.549-0.448,0.997-0.997,0.997H24.999z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               ></path>
               <path
                 fill="#fff"
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M24.998,29.999v-3.001	h12.004c0.549,0,0.997,0.448,0.997,0.997v1.007c0,0.549-0.448,0.997-0.997,0.997H24.998z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               ></path>
               <path
                 fill="#fff"
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M24.999,34.999v-3.001	h10.004c0.549,0,0.997,0.448,0.997,0.997v1.007c0,0.549-0.448,0.997-0.997,0.997H24.999z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               ></path>
               <path
                 fill="#fff"
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M9.994,28.499	c0-3.591,2.913-6.505,6.505-6.505c1.795,0,3.423,0.729,4.6,1.908l-2.121,2.121c-0.635-0.635-1.512-1.029-2.479-1.029	c-1.935,0-3.505,1.572-3.505,3.505c0,1.935,1.571,3.505,3.505,3.505c1.933,0,3.505-1.571,3.505-3.505c0-0.169-0.013-0.336-0.036-0.5	h3.016c0.013,0.165,0.02,0.332,0.02,0.5c0,3.592-2.915,6.505-6.505,6.505C12.907,35.005,9.994,32.091,9.994,28.499z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               ></path>
               <path
                 fill="#fff"
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M16.998,28.001v2.001	h3.001l1-1.003l-1-0.999H16.998z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               ></path>
             </svg>
           </a>
