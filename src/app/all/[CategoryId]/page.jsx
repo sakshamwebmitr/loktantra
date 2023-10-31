@@ -9,7 +9,7 @@ const CategoryPage = async ({ params }) => {
 
   return (
     <>
-      <div className="flex flex-col justify-around px-1 -mt-14 sm:px-16 sm:flex-row sm:gap-4">
+      <div className="flex flex-col justify-around px-1 -mt-7 sm:px-16 sm:flex-row sm:gap-4">
         <div>
           {posts.map((post, index) => (
             <>

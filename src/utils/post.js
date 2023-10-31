@@ -188,7 +188,7 @@ export const getVideoNews = async (postId) => {
     console.log(error);
   }
 };
-export const getVideoNewsbyOffest = async (postId,number = 5) => {
+export const getVideoNewsbyOffest = async (postId,number = 4) => {
   try {
     const res = await fetch(
       `https://admin.loktantraudghosh.com/wp-json/news/api/v1/mighty/get-video-list?offest=${number}`

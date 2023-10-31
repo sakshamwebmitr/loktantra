@@ -92,6 +92,12 @@ const donetion = () => {
         IFSC Code: UBIN0553123 <br />
         Swift Code:- UBININBB <br />
       </p>
+      <div className="w-96 h-12 flex items-center justify-evenly">
+        <h3 className="font-bold" >Click Here To Donate:-</h3>
+      <a  href="https://payments.cashfree.com/forms/donationlu"
+          target="blank" className="rounded w-48 h-12 bg-green-500 text-white font-bold flex items-center justify-center text-center hover:bg-black hover:text-[#FE0001]" >Donate and Support Us </a>
+
+      </div>
       <p className="w-9/12 mt-3 text-base">
         Got a Suggestion? Know more about Loktantra Udghosh News here
       </p>

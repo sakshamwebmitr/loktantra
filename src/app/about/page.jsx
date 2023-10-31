@@ -198,8 +198,8 @@ const about = () => {
       <div className="w-9/12 mt-2">
         <h4>
           Mobile:-{" "}
-          <a className="text-red-600 font-semibold" href="tel:+919424691910">
-            +91 9424691910,+91 9561049490
+          <a className="text-red-600 font-semibold" href="tel:+918319934455">
+          Phone: +91 8319934455 ; +91 9561049490.
           </a>
           ,
         </h4>
@@ -210,6 +210,77 @@ const about = () => {
             href="mailto:contact@loktantraudghosh.com"
           >
             contact@loktantraudghosh.com
+          </a>
+          ,
+        </h4>
+        <h4 className="font-bold" >Social Links : - </h4>
+        <h4>
+          FaceBook:-{" "}
+          <a
+            className="text-red-600 font-semibold"
+            href="https://www.facebook.com/loktantrau"
+          >
+           https://www.facebook.com/loktantrau
+          </a>
+          ,
+        </h4>
+        <h4>
+          Instagram:-{" "}
+          <a
+            className="text-red-600 font-semibold"
+            href="https://www.instagram.com/loktantrau/"
+          >
+           https://www.instagram.com/loktantrau/
+          </a>
+          ,
+        </h4>
+        <h4>
+          Twitter(X):-{" "}
+          <a
+            className="text-red-600 font-semibold"
+            href="https://twitter.com/LoktantraUdghos"
+          >
+          https://twitter.com/LoktantraUdghos
+          </a>
+          ,
+        </h4>
+        <h4>
+          Telegram:-{" "}
+          <a
+            className="text-red-600 font-semibold"
+            href="https://t.me/loktantraudghos"
+          >
+         https://t.me/loktantraudghos
+          </a>
+          ,
+        </h4>
+        <h4>
+          Youtube:-{" "}
+          <a
+            className="text-red-600 font-semibold"
+            href="https://www.youtube.com/channel/UCeH4i_nZBty5IjLFf0F1g1A"
+          >
+         https://www.youtube.com/channel/UCeH4i_nZBty5IjLFf0F1g1A
+          </a>
+          ,
+        </h4>
+        <h4>
+          Linkedin:-{" "}
+          <a
+            className="text-red-600 font-semibold"
+            href="https://www.linkedin.com/in/loktantra-udghosh-6147621a6/"
+          >
+         https://www.linkedin.com/in/loktantra-udghosh-6147621a6/
+          </a>
+          ,
+        </h4>
+        <h4>
+          Google News:-{" "}
+          <a
+            className="text-red-600 font-semibold"
+            href="https://news.google.com/publications/CAAqBwgKMJWWkgswn8enAw"
+          >
+       https://news.google.com/publications/CAAqBwgKMJWWkgswn8enAw
           </a>
           ,
         </h4>

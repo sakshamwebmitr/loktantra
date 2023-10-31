@@ -1,5 +1,6 @@
+
 import Image from 'next/image'
-import Link from 'next/link';
+
 import React from 'react'
 import 'remixicon/fonts/remixicon.css';
 
@@ -119,7 +120,7 @@ const FooterBar = () => {
                 </a>
               </li>
               <li>
-                <a href="/about" className="text-white transition hover:text-[#FE0001]">
+                <a href="/contact" className="text-white transition hover:text-[#FE0001]">
                   Contact Us
                 </a>
               </li>
@@ -187,7 +188,7 @@ const FooterBar = () => {
       </div>
   
       <p className="text-xs text-white">
-        &copy;2023.लोकतंत्र उद्घोष. All rights reserved.
+        &copy;2023.लोकतंत्र उद्घोष. All rights reserved. || News Portal By - <a href="https://webmitr.in/" target="_blank" rel="noopener noreferrer">Webmitr</a>
       </p>
     </div>
   </footer>

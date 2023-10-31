@@ -145,6 +145,7 @@ const Cookie = () => {
       <p className="w-9/12 mt-3 text-base">
         Phone: +91 8319934455 ; +91 9561049490.
       </p>
+      
     </div>
   );
 };

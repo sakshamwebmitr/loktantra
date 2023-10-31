@@ -31,7 +31,7 @@ const VideoCard = ({
           <img
             alt={title}
             src={fullImage ? fullImage : "/placeholder.png"}
-            className="border rounded shadow h-52 aspect-video object-cover  border-slate-300"
+            className="border rounded shadow w-full h-72 aspect-video object-cover  border-slate-300"
           />
         </div>
         <h3 className="text-sm font-bold line-clamp-1 text-white hover:text-[#FE0001]">

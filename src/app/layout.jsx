@@ -31,15 +31,12 @@ export default function RootLayout({ children }) {
           <script
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6540056585668328"
-            crossorigin="anonymous"
+            crossOrigin="anonymous"
           ></script>
         )}
-        <script
-          src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js"
-          defer
-        ></script>
+       
       </head>
-      <Script src="/OneSignal.js" />
+     
       <body className={inter.className}>
         <Navbar />
         <SlimNav />

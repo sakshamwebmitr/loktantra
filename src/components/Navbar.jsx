@@ -1,5 +1,5 @@
+
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 
 const Navbar = () => {
@@ -68,7 +68,7 @@ const Navbar = () => {
           |
         </p>
         <div className="flex gap-2 px-8 py-3 border-t border-b hover:bg-black hover:text-[#FE0001] border-slate-400 ">
-          <Link href={"/video"}>
+          <a href={"/video"}>
             <div className="flex gap-2 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -86,7 +86,7 @@ const Navbar = () => {
 
               <h2>देखिये</h2>
             </div>
-          </Link>
+          </a>
         </div>
         <p className="flex py-3 border-t border-b border-slate-400 text-slate-400 ">
           |

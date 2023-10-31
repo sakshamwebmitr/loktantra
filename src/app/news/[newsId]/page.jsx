@@ -32,7 +32,7 @@ const NewsPage = async ({ params }) => {
       </head>
       <h1 className="text-xl font-bold ">{renderHTML(post.title.rendered)}</h1>
       <img
-        className="w-full h-auto mt-4"
+        className="w-10/12 h-auto mt-4"
         src={post.x_featured_media_large}
         alt="feature image"
       />

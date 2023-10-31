@@ -31,7 +31,7 @@ const videoPage = async ({ params }) => {
       </video> */}
       {/* <iframe type="text/html" className="w-full h-auto mt-4" src={post.video_url} frameBorder="0" allowFullScreen/> */}
       <iframe
-        className="mt-4 w-full aspect-video"
+        className="mt-4 w-9/12 aspect-video"
         src={post.video_url}
         title="YouTube video player"
         frameBorder="0"

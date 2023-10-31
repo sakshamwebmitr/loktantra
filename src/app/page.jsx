@@ -46,11 +46,18 @@ export default async function Home() {
           <script
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6540056585668328"
-            crossorigin="anonymous"
+            crossOrigin="anonymous"
           ></script>
         )}
     </head> */}
-      <main className="-mt-20">
+     {process.env.NODE_ENV === "production" && (
+          <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6540056585668328"
+            crossOrigin="anonymous"
+          ></script>
+        )}
+      <main className="-mt-14">
         <div className="flex flex-col justify-around px-1 mt-6 sm:px-16 sm:flex-row sm:gap-4">
           <div>
             {posts.map((post, index) => (
@@ -113,7 +120,7 @@ export default async function Home() {
           <script
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6540056585668328"
-            crossorigin="anonymous"
+            crossOrigin="anonymous"
           ></script>
         )}
       {/* ------------------------------------------------videos------------------------------------------------------------------------ */}
@@ -129,9 +136,9 @@ export default async function Home() {
             और देखें <i className="ri-arrow-right-s-line"></i>
           </Link>
         </div>
-        <div className="flex flex-row items-center justify-around px-1 mt-6 sm:px-16 sm:flex-row sm:gap-4 ">
+        <div className="flex flex-row items-center justify-around px-1 mt-6 sm:px-8 sm:flex-row sm:gap-4 ">
           <div className="flex flex-col md:flex-row items-center justify-around">
-            {videocard.map((post, index) => (
+            {videocard.slice(0, 4).map((post, index) => (
               <>
                 <VideoMain
                   key={post.id}
@@ -153,7 +160,7 @@ export default async function Home() {
           <script
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6540056585668328"
-            crossorigin="anonymous"
+            crossOrigin="anonymous"
           ></script>
         )}
       {/* -----------------------------------------madhya pradesh------------------------------------------------------------- */}
@@ -231,7 +238,7 @@ export default async function Home() {
           <script
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6540056585668328"
-            crossorigin="anonymous"
+            crossOrigin="anonymous"
           ></script>
         )}
       {/* -----------------------------------------------------Entertainment🐶🐕--------------------------------------------------------------------- */}
@@ -309,7 +316,7 @@ export default async function Home() {
           <script
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6540056585668328"
-            crossorigin="anonymous"
+            crossOrigin="anonymous"
           ></script>
         )}
       {/* -------------------------------------------------------------crime ptrol 🚓------------------------------------------------------------------------- */}
@@ -385,7 +392,7 @@ export default async function Home() {
       <script
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6540056585668328"
-            crossorigin="anonymous"
+            crossOrigin="anonymous"
           ></script>
       {/* --------------------------------------------------------------------neta neta....(politics)----------------------------------------------------------- */}
       <main className="mt-6">
@@ -461,7 +468,7 @@ export default async function Home() {
           <script
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6540056585668328"
-            crossorigin="anonymous"
+            crossOrigin="anonymous"
           ></script>
         )}
       {/* -----------------------------------------------------------Pollkhol---------------------------------------------------------------------------------- */}
@@ -538,7 +545,7 @@ export default async function Home() {
           <script
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6540056585668328"
-            crossorigin="anonymous"
+            crossOrigin="anonymous"
           ></script>
         )}
     </>
